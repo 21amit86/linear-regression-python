@@ -10,3 +10,8 @@ communication flow between technology and user in line with math:
 9. User check the prediction via one example or all datapoints.
 10. User inserts these predicted points in new csv file
 11. User finally plots the straight line with model.
+
+File 'areas.csv' is used for test dataset
+File 'canada_per_capita_income.csv' is for practice purpose
+File 'homeprices.csv' is for intial dataset
+File '21amit86_logisticregression.ipynb' is a colab code file for this linear regression model.
