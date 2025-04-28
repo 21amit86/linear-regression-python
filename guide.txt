@@ -14,4 +14,5 @@ communication flow between technology and user in line with math:
 File 'areas.csv' is used for test dataset
 File 'canada_per_capita_income.csv' is for practice purpose
 File 'homeprices.csv' is for intial dataset
+File 'canada_pci_testdata_for_prediction' is for test dataset
 File '21amit86_logisticregression.ipynb' is a colab code file for this linear regression model.
