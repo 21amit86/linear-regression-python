@@ -1,0 +1,12 @@
+communication flow between technology and user in line with math:
+1. User import important libraries like numpy, pandas, etc
+2. User uploads / connects the data file with software/colab/tool/etc
+3. User creates the file as dataframe (df)
+4. User checks the first 3 heads to confirm the correctness of file.
+5. User plots the existing data using matplotlib pyplot library
+6. User calls liner regression from sklearn.linear_model library
+7. User FIT this model with existed data sets/points
+8. User provides new dataset to this model for prediction.
+9. User check the prediction via one example or all datapoints.
+10. User inserts these predicted points in new csv file
+11. User finally plots the straight line with model.
