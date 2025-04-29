@@ -1,1 +1,14 @@
+communication flow between technology and user in line with math:
 
+- User import important libraries like numpy, pandas, etc
+- User uploads / connects the data file with software/colab/tool/etc
+- User creates the file as dataframe (df)
+- User checks the first 3 heads to confirm the correctness of file.
+- Note that here, user cannot plot graph on all x features combined due to 3D limitations.
+-User calls liner regression from sklearn.linear_model library
+- Or user can use seaborn lib and do reg(regression) during creation of plots. Its fun. Its given at the end of the codes.
+- User FIT this model with existed data sets/points
+- User check the prediction via one example or all datapoints.
+
+File 'homeprices.csv' is source data
+File 'Lin_Reg_Multivariate_codebasics.ipynb' is a colab code file for this linear regression multivariate model.
