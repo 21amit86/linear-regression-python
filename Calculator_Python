@@ -1,1 +1,47 @@
+operand = '/*+-//%'
+while True:
+  try:
+    while True:
+      try:
+        x = int(input('Please Enter 1st Number: '))
+        if not ( 0 < x <= 100):
+          print('Please enter a number between 0 and 100')
+        else:
+          break
+      except ValueError:
+        print('Please enter a valid input')
+        continue
+    
+    while True:
+      try:
+        y = input('Please Enter Operand: ')
+        if y not in operand:
+          print('Please enter a valid operand')
+        else:
+          break
+      except ValueError:
+        print('Please enter a valid input')
+        continue
 
+    while True:
+      try:
+        z = int(input('Please Enter 2nd Number: '))
+        if not ( 0 < x <= 100):
+          print('Please enter a number between 0 and 100')
+        else:
+          break
+      except ValueError:
+        print('Please enter a valid input')
+        continue
+          
+    r = eval(f'{x}{y}{z}')
+    print(f'The result is : {r}')
+
+    play_again = input('Do you want to try more?. (Y or N: )').lower()
+    consent = 'y yes'
+    if play_again != consent:
+      print('Thankyou for tyring our small calculator')
+      break
+  except ValueError:
+    print('Please enter a valid input')
+    continue
